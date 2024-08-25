@@ -18,3 +18,24 @@ df
 ip (from iproute2 package)
 uptime
 iostat (from sysstat package)
+
+# Linux Security Audit and Hardening Script
+
+## Overview
+This script automates security audits and server hardening on Linux servers. It checks for common vulnerabilities, IPv4/IPv6 configurations, public/private IP identification, and applies hardening measures based on best practices.
+
+## Features
+- System update and patching
+- Disable root login via SSH
+- Enforce password complexity
+- Setup automatic security updates
+- Configure firewall
+- Disable unnecessary services
+- Check IP configurations and detect public vs. private IP addresses
+- Audit installed packages for vulnerabilities
+
+## Usage
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/linux-security-audit.git
+cd linux-security-audit
